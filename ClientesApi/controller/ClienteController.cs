@@ -1,21 +1,16 @@
 ﻿using ClientesApi.Data;
 using ClientesApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClientesApi.controller;
 
+[Authorize]
 [ApiController]
 [Route("api/clientes")]
-public class ClienteCotroller : ControllerBase
+public class ClienteController(AppDbContext _context) : ControllerBase
 {
-    private readonly AppDbContext _context;
-
-    public ClienteCotroller(AppDbContext context)
-    {
-        _context = context;
-    }
-
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Cliente>>> Listar()
     {
@@ -30,7 +25,7 @@ public class ClienteCotroller : ControllerBase
 
         if (client == null)
         {
-            return NotFound(new { mensaje = $"No existe el cleinte con Id {id}" });
+            return NotFound(new { mensaje = $"No existe el cliente con Id {id}" });
         }
 
         return Ok(client);
@@ -85,5 +80,21 @@ public class ClienteCotroller : ControllerBase
         await _context.SaveChangesAsync();
         
         return NoContent();
+    }
+
+    [Authorize(Roles = "Admin")]
+    [HttpDelete("{id:int}")]
+    public async Task<IActionResult> Delete(int? id)
+    {
+        var cliente = await _context.Clientes.FindAsync(id);
+
+        if (cliente == null)
+        {
+            return NotFound(new { msg = $"No se encontró un cliente con el id {id}" });
+        }
+
+        _context.Clientes.Remove(cliente);
+        await _context.SaveChangesAsync();
+        return Ok(new {msg ="Eliminado correctamente"});
     }
 }

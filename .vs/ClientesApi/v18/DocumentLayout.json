@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|c:\\users\\senati\\riderprojects\\clientesapi\\clientesapi\\controller\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|solutionrelative:clientesapi\\controller\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|c:\\users\\senati\\riderprojects\\clientesapi\\clientesapi\\controller\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|solutionrelative:clientesapi\\controller\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|c:\\users\\senati\\riderprojects\\clientesapi\\clientesapi\\controller\\clientecotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|solutionrelative:clientesapi\\controller\\clientecotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|c:\\users\\senati\\riderprojects\\clientesapi\\clientesapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|solutionrelative:clientesapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|c:\\users\\senati\\riderprojects\\clientesapi\\clientesapi\\clientesapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|solutionrelative:clientesapi\\clientesapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47982F4F-2062-4B5D-A58B-937F2AE153F7}|ClientesApi\\ClientesApi.csproj|c:\\users\\senati\\riderprojects\\clientesapi\\clientesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,32 +35,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClienteCotroller.cs",
-              "DocumentMoniker": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\controller\\ClienteCotroller.cs",
-              "RelativeDocumentMoniker": "ClientesApi\\controller\\ClienteCotroller.cs",
-              "ToolTip": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\controller\\ClienteCotroller.cs*",
-              "RelativeToolTip": "ClientesApi\\controller\\ClienteCotroller.cs*",
-              "ViewState": "AgIAADEAAAAAAAAAAAAcwEYAAABSAAAAAAAAAA==",
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\controller\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ClientesApi\\controller\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\controller\\ClienteController.cs",
+              "RelativeToolTip": "ClientesApi\\controller\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T16:13:11.347Z",
+              "WhenOpened": "2026-10-23T14:33:15.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\controller\\ProductoController.cs",
+              "RelativeDocumentMoniker": "ClientesApi\\controller\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\controller\\ProductoController.cs",
+              "RelativeToolTip": "ClientesApi\\controller\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T16:31:41.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ClientesApi.http",
-              "DocumentMoniker": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\ClientesApi.http",
-              "RelativeDocumentMoniker": "ClientesApi\\ClientesApi.http",
-              "ToolTip": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\ClientesApi.http",
-              "RelativeToolTip": "ClientesApi\\ClientesApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-10-16T16:12:57.787Z",
-              "EditorCaption": ""
+              "Title": "ClienteCotroller.cs",
+              "DocumentMoniker": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\controller\\ClienteCotroller.cs",
+              "RelativeDocumentMoniker": "ClientesApi\\controller\\ClienteCotroller.cs",
+              "ToolTip": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\controller\\ClienteCotroller.cs",
+              "RelativeToolTip": "ClientesApi\\controller\\ClienteCotroller.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwEUAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T16:13:11.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\Program.cs",
               "RelativeDocumentMoniker": "ClientesApi\\Program.cs",
@@ -64,12 +80,11 @@
               "RelativeToolTip": "ClientesApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T16:12:52.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-16T16:12:52.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\SENATI\\RiderProjects\\ClientesApi\\ClientesApi\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "ClientesApi\\Models\\Cliente.cs",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "ClientesApi\\Models\\Cliente.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T16:12:07.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-16T16:12:07.231Z"
             }
           ]
         }
